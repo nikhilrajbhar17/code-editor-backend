@@ -35,7 +35,7 @@ app.use(express.json());
 
 const io = new Server(server, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://master.d24wje4yf4hip5.amplifyapp.com",
     methods: ["GET", "POST"],
   },
 });
